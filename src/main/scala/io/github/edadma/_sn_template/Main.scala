@@ -1,7 +1,4 @@
 package io.github.edadma._sn_template
 
-object Main extends App {
-
+@main def run(): Unit =
   println("Scala Native is awesome!")
-
-}
