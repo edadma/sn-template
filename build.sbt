@@ -37,6 +37,9 @@ homepage := Some(url("https://github.com/edadma/" + name.value))
 
 //libraryDependencies += "org.scalatest" %%% "scalatest" % "3.2.13" % "test"
 
+//libraryDependencies ++= Seq(
+//)
+
 publishMavenStyle := true
 
 Test / publishArtifact := false
