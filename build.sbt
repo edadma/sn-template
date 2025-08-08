@@ -4,7 +4,7 @@ version := "0.0.1"
 
 versionScheme := Some("early-semver")
 
-scalaVersion := "3.5.0"
+scalaVersion := "3.7.2"
 
 enablePlugins(ScalaNativePlugin)
 
@@ -19,13 +19,7 @@ scalacOptions ++= Seq(
 
 organization := "io.github.edadma"
 
-githubOwner := "edadma"
-
-githubRepository := name.value
-
 Global / onChangedBuildSource := ReloadOnSourceChanges
-
-resolvers += Resolver.githubPackages("edadma")
 
 licenses := Seq("ISC" -> url("https://opensource.org/licenses/ISC"))
 
